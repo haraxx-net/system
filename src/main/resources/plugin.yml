@@ -1,0 +1,7 @@
+name: HaraxxSystem
+author: Gero
+version: 0.0.1
+api-version: 1.18
+main: net.haraxx.system.HaraxxPlugin
+libraries:
+  - org.xerial:sqlite-jdbc:3.41.2.1
