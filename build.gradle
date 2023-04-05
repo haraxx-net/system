@@ -1,5 +1,4 @@
 plugins {
-    id 'com.github.johnrengelman.shadow' version '8.1.1'
     id 'java'
     id 'maven-publish'
 }
@@ -15,8 +14,8 @@ repositories {
 }
 
 dependencies {
-    shadow("io.papermc.paper:paper-api:1.19.3-R0.1-SNAPSHOT")
-    shadow("org.xerial:sqlite-jdbc:3.41.2.1")
+    implementation("io.papermc.paper:paper-api:1.19.3-R0.1-SNAPSHOT")
+    implementation("org.xerial:sqlite-jdbc:3.41.2.1")
 }
 
 test {
